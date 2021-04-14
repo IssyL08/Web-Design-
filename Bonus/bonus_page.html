@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Weather Visualization Website</title>
+  <title>Hawaii Weather and Trip Estimates</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -26,7 +26,7 @@
   <div>
     <div class="row">
       <div class="col col-6 homebtn">
-        <a href="landingpage.html">Latitude</a>
+        <a href="bonus_page.html">Hawaii Weather and Trip Estimates</a>
       </div>
       <div class="col col-6 menubuttons divtop">
 
@@ -45,17 +45,17 @@
                   Plots
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
-                  <a class="dropdown-item" href="humidity.html">Humidity</a>
-                  <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                  <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                  <a class="dropdown-item" href="daily_normals.html">Daily Normal Rainfall Aug 1, 2017 to Aug 7, 2017 (Min, Avg, Max)</a>
+                  <a class="dropdown-item" href="precipitation.html">Precipitation Over One Year</a>
+                  <a class="dropdown-item" href="temperature_vs_frequency.html">Temperature vs. Frequency</a>
+                  <a class="dropdown-item" href="trip_avg_temp.html">Avg. Temp from Aug 1, 2017 to Aug 7, 2017</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="comparison.html">Comparison</a>
+                <a class="nav-link" href="comparison_hawaii.html">Comparison</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="data.html">Data</a>
+                <a class="nav-link" href="hawaii_measure.html">Data</a>
               </li>
             </ul>
           </div>
@@ -72,14 +72,11 @@
       <!-- left side -->
       <div class="col col-12 col-md-8 divbdy">
         <br>
-        <h1>Summary: Latitude vs. X</h1>
+        <h1>Hawaii Weather Info</h1>
         <hr>
-        <img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Temperature" width="280" align="left">
-        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. 
-          To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-        <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. 
-          Factors we looked at included: temperature, cloudiness, wind speed, and humidity.
-           This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+        <img src="Images/temperature_vs_frequency.png" alt="Temperature vs. Frequency" width="280" align="left">
+        <p>Analysis of the weather in Hawaii.</p>
+       </p>
         <hr>
       </div>
       <!-- left side end -->
@@ -90,16 +87,16 @@
         <hr>
         <div class='row'>
           <div class="col col-3 col-md-6">
-            <a href="max_temperature.html"><img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Temperature"></a>
+            <a href="daily_normals.html"><img src="Images/daily_normals.png" alt="Daily Normal Rainfall Aug 1, 2017 to Aug 7, 2017 (Min, Avg, Max)"></a>
           </div>
           <div class="col col-3 col-md-6">
-            <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity"></a>
+            <a href="precipitation.html"><img src="Images/precipitation.png" alt="Precipitation Over One Year"></a>
           </div>
           <div class="col col-3 col-md-6">
-            <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness"></a>
+            <a href="temperature_vs_frequency.html"><img src="Images/temperature_vs_frequency.png"alt="Temperature vs. Frequency"></a>
           </div>
           <div class="col col-3 col-md-6">
-            <a href="wind_speed.html"><img src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed"></a>
+            <a href="trip_avg_temp.html"><img src="Images/trip_avg_temp.png" alt="Avg. Temp from Aug 1, 2017 to Aug 7, 2017"></a>
           </div>
         </div>
       </div>
