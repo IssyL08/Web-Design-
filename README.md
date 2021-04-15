@@ -32,3 +32,5 @@ Ensure your repository has regular commits (i.e. 20+ commits) and a thorough REA
 The Bonus Website
 
 The bonus website was created using the previous homework exported data sets for Hawaii weather and the trip data.  The website followed the same pattern as above but with a slightly different layout and colors. 
+
+It shows the different graphs with the explanation of each one and everything can link back to the homepage as needed.
