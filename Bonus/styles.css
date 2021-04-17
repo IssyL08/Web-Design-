@@ -1,5 +1,6 @@
 img {
   max-width: 100%;
+  align-items: center;
 }
 
 #imgsel{
@@ -19,7 +20,7 @@ h2, h3{
 
 
 h2{
-  font-size: 22px;
+  font-size: 26px;
   font-weight: bold;
   text-align:center;
 }
@@ -104,14 +105,15 @@ body {
 
 .divbdy{
   background-color:#d9c27a;
-  z-index:auto;
+  z-index:1;
+  margin: 10px 10px 10px 10px;
 }
 
 .divtable{
   text-align:center;
-  background-color:#d9c27a;
+  background-color: white;
   z-index:1;
-}
+  }
 
 .divbtm {
   width:100%;
